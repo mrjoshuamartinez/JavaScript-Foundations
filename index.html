@@ -4,10 +4,28 @@
     <title>JavaScript Foundations</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css" />
   </head>
   <body>
-    <p>Open up the console to check your work!</p>
-    
-      <script src="index.js"></script>
+    <script src="index.js"></script>
+    <form action="/action_page.php" onsubmit="return myFunction()"></form>
+      <div class="container">
+        <div class="screen">
+          <p id="display"></p>
+        </div>
+        <div class="principal">
+          Principal: <input type="text" id="principal" name="principal" value="200000">
+        </div>
+        <div class="interest">
+          Interest: <input type="text" id="interest" name="interest" value=".05">
+        </div>
+        <div class="years">
+          Years: <input type="text" id="years" name="years" value="30">
+        </div>
+        <div class="button">
+          <button onclick="calculator()">Calculate</button>
+        </div>
+      </div>
+    </form>
   </body>
 </html>

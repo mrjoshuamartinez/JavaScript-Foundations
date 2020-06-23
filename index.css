@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    font-size: 18px;
+    color: dodgerblue;
+}
+
+.container {
+    max-width: 360px;
+    border: 1px solid dodgerblue;
+    padding: 2%;
+    margin-top: 20%;
+}
+
+.screen {
+    width: 360px;
+}
+
+#display {
+    color: floralwhite;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.principal {
+    display: flex;
+    justify-content: space-between;
+    margin: 2px;
+}
+
+.interest {
+    display: flex;
+    justify-content: space-between;
+    margin: 2px;
+}
+
+.years {
+    display: flex;
+    justify-content: space-between;
+    margin: 2px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%
+}
+
+input {
+    text-align: right;
+}
+
